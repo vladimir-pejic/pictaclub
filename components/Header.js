@@ -7,14 +7,14 @@ function Header() {
         <div className="shadow-sm border-b bg-white sticky top-0 z-50">
             <div className='flex justify-between max-w-6xl mx-5 lg:mx-auto'>
 
-                <div className='relative hidden lg:inline-grid w-24 cursor-pointer'>
-                    <Image src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"
+                <div className='relative hidden lg:inline-grid w-28 ml-1 cursor-pointer'>
+                    <Image src="/img/pictaclub-text.png"
                            layout="fill"
                            objectFit="contain"
                     />
                 </div>
                 <div className='relative w-10 lg:hidden flex-shrink-0 cursor-pointer'>
-                    <Image src="https://www.marjanvanaubel.com/wp-content/uploads/2019/11/instagram-logo.png"
+                    <Image src="/img/pictaclub-logo.png"
                            layout="fill"
                            objectFit="contain"
                     />
@@ -32,7 +32,6 @@ function Header() {
                     </div>
                 </div>
 
-
                 {/* Right */}
                 <div className="flex items-center justify-end space-x-4">
                     <HomeIcon className="navBtn" />
@@ -46,7 +45,7 @@ function Header() {
                     <UserGroupIcon className="navBtn" />
                     <HeartIcon className="navBtn" />
 
-                    <img className="h-10 rounded-full cursor-pointer" src="https://media-exp1.licdn.com/dms/image/C4D03AQEwNDCHSZqOlQ/profile-displayphoto-shrink_200_200/0/1626449741844?e=1642636800&v=beta&t=Uw8v6b18JzlPwxX9aXMUOsVZ0IsoVY5ZE9Nwy-QX6kQ" ></img>
+                    <img className="h-10 mr-2 rounded-full cursor-pointer" src="https://media-exp1.licdn.com/dms/image/C4D03AQEwNDCHSZqOlQ/profile-displayphoto-shrink_200_200/0/1626449741844?e=1642636800&v=beta&t=Uw8v6b18JzlPwxX9aXMUOsVZ0IsoVY5ZE9Nwy-QX6kQ" ></img>
                 </div>
 
             </div>
